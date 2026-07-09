@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Oficiálna stránka PD Webové-Mesto. Informácie o histórii, rastlinnej a živočíšnej výrobe družstva.">
   <meta name="author" content="Maroš Herman">
-  <link rel="canonical" href="https://pdmelcice.sk/index.html">
   <title>Poľnohospodárske družstvo Webové-Mesto</title>
   <link rel="icon" type="image/png" href="obrazky/favicon.png">
   <style>
@@ -523,11 +522,11 @@ a:hover { color: var(--sage); }
   position: absolute;
   bottom: -15px; /* Výška čiary medzi nadpisom a popisom */
   
-  /* 🌟 RESPONZÍVNY ZAČIATOK ČIARY */
+  /* RESPONZÍVNY ZAČIATOK ČIARY */
   left: -5vw; /* Použitím 'vw' (viewport width) sa posun prispôsobí mobilu aj PC */
   
-  /* 🌟 INTELIGENTNÁ ŠÍRKA */
-  width: 1370px;     /* Na PC si zachová tvoju vysnívanú dĺžku 1250px */
+  /* INTELIGENTNÁ ŠÍRKA */
+  width: 1370px;     /* Na PC si zachová dĺžku 1250px */
   max-width: 95vw;   /* Na mobile nepresiahne šírku obrazovky, takže nerozbije dizajn */
   
   height: 1px;
@@ -675,7 +674,7 @@ a:hover { color: var(--sage); }
   background-image: linear-gradient(rgba(46, 42, 30, 0.85), rgba(46, 42, 30, 0.85)), url('obrazky/uvod.webp');
   background-size: cover;
   background-position: center;
-  background-attachment: scroll; /* Efekt statického pozadia pri scrollovaní dosiahneme zmenou na fixed */
+  background-attachment: scroll; /* Efekt statického pozadia pri scrollovaní sa dosiahne zmenou na fixed */
 }
 
 @media (max-width: 900px) {
